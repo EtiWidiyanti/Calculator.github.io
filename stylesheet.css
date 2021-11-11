@@ -1,0 +1,79 @@
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.calculator {
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;
+    opacity: 80%;
+    border: 5px solid rgb(139, 130, 130);
+    border-radius: 5px;
+}
+
+.calculator-screen {
+    width: 100%;
+    height: 100px;
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    font-size: 36px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.calculator-keys {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    height: 80px;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 32px;
+    color: black;
+    width: 25%;
+    outline: none;
+    border-radius: 10%;
+    margin: 2px;
+}
+
+.all-clear, .zero-btn {
+    width: 50%;
+}
+
+.operator, .equal-sign {
+    background-color: violet;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.operator:hover, .equal-sign:hover {
+    background-color: bisque;
+}
+
+.all-clear{
+    background-color: plum;
+}
+
+.all-clear:hover{
+    background-color: palevioletred;
+}
+
+h1 { 
+    text-align: center;
+}
+
+.percentage {
+    background-color: violet;
+}
+
+.percentage:hover{
+    background-color: bisque;
+}
